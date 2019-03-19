@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nightonke:boommenu:2.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/boommenu-2.0.4.aar/9b02a04c9b4edb2fe4ab54943b11d5d9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/boommenu-2.0.4.aar/9b02a04c9b4edb2fe4ab54943b11d5d9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nightonke/boommenu/2.0.4/811616ef2e3ec9798d0aaf8aa2c2acb3c9ed618c/boommenu-2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

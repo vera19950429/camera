@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    <FrameLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mSurface" />
+    </FrameLayout>
+    <!--<ImageButton-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:background="@drawable/btn_shutter_background"-->
+        <!--android:id="@+id/mShutter"-->
+        <!--android:onClick="onClick"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_piecePlaceEnum="piecePlace_dot_8_1"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_8_1"
+        app:bmb_boomInWholeScreen="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageButton
+
+        android:id="@+id/change"
+        android:background="drawable/btn_shutter_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
